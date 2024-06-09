@@ -1,0 +1,49 @@
+*  {padding:0;
+	font-family: Arial;
+}
+h1 {color:blue}
+table {border-collapse:collapse}
+th,td {padding:5px; border:1px solid silver}
+
+nav {height: 2.8rem; background:#eee}
+nav a img {height: 40px;
+	margin-top:-10px;
+	padding:0;
+}
+nav a.navbar-brand {margin-top: 0px}
+div.navbar {
+	height:100%;
+	display:inline-flex;
+/*	margin-top:14px;*/
+}
+div.navbar ul {
+	display:inline-block;
+	margin-top:0;
+	margin left:20px;
+	height:100%;
+}
+ul.navbar li.nav-item {
+  display:inline-block;
+	height:100%;
+}
+li.nav-item a{
+ text-decoration:none;
+ margin-left:10px;
+	height:100%;
+	display:inline-block;
+}
+li.nav-item:not(li.nav-item.active) a:hover:not(a.disabled) {
+	color:red;
+}
+div#loginInfo {
+	float:right;
+	display:inline-block;
+	margin-top:10px;
+}
+form.form-inline{
+	padding:3px;
+	margin-left:40px;
+	margin-top:10px;
+}
+
+

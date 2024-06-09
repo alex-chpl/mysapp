@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<title>Вход в программу</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script>
+const byId = (el)=>document.getElementById(el);
+const qSel = (sel) => document.querySelectorAll(sel);
+</script>
+<style src="/css/main.css"></style>
+	</head>
+	<body>
+		<nav>
+			<img src="/img/logo.png">
+		</nav>
+		<section>
+			<div id="login" class="login" >
+				<form id="lgform" method="POST" action="/login" >
+					<span>$error</span>
+					<input name="op" type="text" value="login" hidden>
+					<input name="user" type="text" placeholder="Логин">
+					<input name="password" type="password" placeholder="Пароль">
+					<button name="submit" type="submit" >Войти</button>
+					<a href="#" onclick="javascript:byId('login').hidden=true;return false;">&times;</a>
+				</form>
+			</div>
+		</section>
+		<footer>&copy;alex</footer>
+	</body>
+</html>
+

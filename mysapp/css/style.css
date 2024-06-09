@@ -1,0 +1,51 @@
+
+nav img {height:40px;}
+nav ul {display:inline-block;}
+nav ul li {display:inline-block;}
+nav span {display:inline-block; float:right;}
+nav {background-color:snow;}
+div#login {
+	padding:15px;
+	border: 1px solid silver;
+	border-radius:5px;
+	box-shadow:5px 5px 5px 5px rgba(0,0,0,0.2);
+	width:250px;
+	position:absolute;
+	top:40%;
+	right:40%;
+	text-align:center;
+	background:lightskyblue;
+}
+form#lgform {
+	display:flex;
+	flex-direction:column;
+}
+form#lgform button{
+	color:white;
+	background:#0A0;
+}
+form#lgform button:hover {
+	background:#0B0;
+}
+form#lgform a {
+	text-decoration:none;
+	position:absolute;
+	top:3px;
+	right:6px;
+	font-weight:bold;
+	font-size:120%;
+	color:red;
+}
+
+div#login input, span, button { padding: 5px;margin:5px}
+
+section {
+	min-height:80vh;
+	background-color:lavender;
+}
+
+footer {
+	min-height:40px;
+	background-color:lightskyblue;
+}
+
