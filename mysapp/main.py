@@ -370,6 +370,7 @@ def application(environ, start_response):
 
 
 if __name__ == '__main__':
-    srv = make_server('0.0.0.0', 8080, application)
-    print("Serving HTTP on port 8080")
+    port = 8081
+    srv = make_server('0.0.0.0', port, application)
+    print(f"Serving HTTP on port {port}")
     sys.exit(srv.serve_forever())
