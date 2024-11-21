@@ -358,7 +358,7 @@ urls = [
     (r'^(js|css|img|templates)/(.+)$', get_static),
 ]
 
-
+#Application
 def application(environ, start_response):
     path = environ.get('PATH_INFO', '').lstrip('/')
     for regex, callback in urls:
